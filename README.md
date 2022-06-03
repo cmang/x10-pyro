@@ -10,15 +10,15 @@ The X10 Firecracker is an RF transmitter for controlling X10 home automation mod
 
 Software:
 
-Python 3
-Flask (pip install flask)
-pySerial (pip install pyserial)
+* Python 3
+* Flask (pip install flask)
+* pySerial (pip install pyserial)
 
 Hardware:
 
-X10 Firecracker CM17A serial iterface
-Computer with an rs232 serial port (USB works)
-X10 appliance modules to control
+* X10 Firecracker CM17A serial iterface
+* Computer with an rs232 serial port (USB works)
+* X10 appliance modules to control
 
 ## Usage
 
@@ -31,15 +31,16 @@ See LICENSE file for licensing information.
 
 X10 Pyro bundles and uses the following software:
 
-firecracker.py X10 Firecracker CM17A Interface:
-Copyright (c) 2010-2013 Collin J. Delker
-Copyright (c) 2020 Daniel L. Srebnick (port to python3)
-See fircracker.py for licensing information.
-firecracker.py can also be found at: https://github.com/K2IE/x10-firecracker
+firecracker.py: Copyright (c) 2010-2013 Collin J. Delker
 
-Bootstrap v5.0.2 (https://getbootstrap.com/)
+firecracker.py: Copyright (c) 2020 Daniel L. Srebnick (port to python3)
+
+See fircracker.py for licensing information. firecracker.py can also be found at: https://github.com/K2IE/x10-firecracker
+
+Bootstrap v5.0.2 (https://getbootstrap.com/): 
 Copyright 2011-2021 The Bootstrap Authors
-Copyright 2011-2021 Twitter, Inc.
+
+Bootstrap 5.0.2: Copyright 2011-2021 Twitter, Inc. 
 Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 
 
