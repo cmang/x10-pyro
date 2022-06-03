@@ -1,0 +1,121 @@
+/* Styles for X10 Pyro remote interface */
+
+table {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+tr {
+    /* box-shadow: 0px 0px 0px 1px rgb(0, 0, 0); */
+    border: 1px solid;
+}
+
+h1 {
+}
+
+.first-column {
+    padding-left: 10px;
+}
+
+#app {
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+#house-selector {
+    margin-left: 10px;
+}
+
+#blinker {
+    float: right;
+    margin-right: 30px;
+
+    height: 25px;
+    width: 25px;
+    background-color: #900;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.on-button {
+    background: #9f9;
+}
+
+.off-button {
+    background: #F99;
+}
+
+.button {
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 25pt;
+}
+
+.grid-line {
+    /*
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    */
+    width: 100%;
+}
+
+.right {
+    float: right;
+    display: inline;
+}
+
+.left {
+    float: left;
+    display: inline;
+}
+
+.centered {
+    text-align: center;
+    display: table;
+    margin: auto;
+    float: center;
+}
+
+.label {
+    font-size: 20pt;
+}
+
+.list-button {
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20pt;
+}
+
+/* Using bootstrap */
+
+.bordered {
+    border-width: 1px;
+    /* border-radius: 10px; */
+    border-style: solid;
+}
+
+.v-padded {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.h-padded {
+    /* margin-left: 10px; */
+    margin-right: 10px;
+}
+
+#send-light {
+    /* Draw a circle */
+    border-top: 8px ridge #ff0000;
+    border-right: 8px ridge #ff0000;
+    border-bottom: 8px ridge #ff0000;
+    border-left: 8px ridge #ff0000;
+    border-radius: 50%; width: 10px; height: 10px;
+}
+
