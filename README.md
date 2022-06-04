@@ -26,8 +26,7 @@ Clone it. Run x10-pyro.py. Connect to it in a browser.
 
 ## Credits & Legal
 
-X10 Pyro is Copyright (c) 2022 Sam Foster
-See LICENSE file for licensing information.
+X10 Pyro is Copyright (c) 2022 Sam Foster and is Licensed under The MIT License.  See LICENSE file for licensing information.
 
 X10 Pyro bundles and uses the following software:
 

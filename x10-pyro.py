@@ -22,7 +22,7 @@ def show_main_menu():
 def show_beta_menu():
     """ Show the UI in development """
     dev_numbers = [*range(1,17)]
-    return render_template("bootstrap.html", device_number_list=dev_numbers)
+    return render_template("beta.html", device_number_list=dev_numbers)
 
 @app.route('/old')
 def show_old_screen():
