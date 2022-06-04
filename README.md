@@ -4,7 +4,7 @@ X10 Pyro is a web interface to the X10 Firecracker CM17A module.
 
 The X10 Firecracker is an RF transmitter for controlling X10 home automation modules and is controlled from a computer through a serial interface.
 
-![x10-pyro-0 6](https://user-images.githubusercontent.com/261501/171809786-6754cf79-3cb7-4052-9438-104f5f1a4180.png)
+![x10-pyro-0 7](https://user-images.githubusercontent.com/261501/171993609-64056d53-a88e-46c4-9133-787ddbc8d779.png)
 
 ## Requirements
 

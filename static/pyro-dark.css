@@ -1,0 +1,10 @@
+/* Dark theme for X10 Pyro remote interface */
+
+body {
+    background-color: #333;
+    color: #fff;
+}
+
+table {
+    background-color: #222;
+}

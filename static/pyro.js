@@ -70,10 +70,22 @@ function turn_off(house, unit) {
         );
 }
 
+
+function load_dark_theme() {
+    document.getElementById('theme_css').href = "static/pyro-dark.css?ver=1";
+}
+
+function load_light_theme() {
+    document.getElementById('theme_css').href = "static/pyro-light.css?ver=1";
+}
+
 function body_loaded() {
     // set some defaults
     document.querySelector('#current-house').value = 'c';
     document.getElementById("device_1_name").innerHTML = 'Living Room Lights';
+    document.getElementById('dark_theme_button').onclick = load_dark_theme;
+    document.getElementById('light_theme_button').onclick = load_light_theme;
+    console.log("test");
     //console.log("fnord!");
 }
 
