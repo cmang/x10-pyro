@@ -56,10 +56,11 @@
                 Device
             </td>
             <td class="text-end">
-                <button type="button" class="btn btn-primary v-padded h-padded" onclick="var selector = document.getElementById('current-house'); var selected_value = selector.options[selector.selectedIndex].value; turn_on(selected_value, {{ device_number }});">ON</button>
-                <button type="button" class="btn btn-secondary v-padded h-padded" onclick="var selector = document.getElementById('current-house'); var selected_value = selector.options[selector.selectedIndex].value; turn_off(selected_value, {{ device_number }});">OFF</button>
-                <button type="button" class="btn btn-info btn-sm v-padded h-padded" onclick="var selector = document.getElementById('current-house'); var selected_value = selector.options[selector.selectedIndex].value; dim_up(selected_value, {{ device_number }});">&#9650;</button>
-                <button type="button" class="btn btn-info btn-sm v-padded h-padded" onclick="var selector = document.getElementById('current-house'); var selected_value = selector.options[selector.selectedIndex].value; dim_down(selected_value, {{ device_number }});">&#9660;</button>
+                <button type="button" class="btn btn-primary btn-sm v-padded h-padded" onclick="var selector = document.getElementById('current-house'); var selected_value = selector.options[selector.selectedIndex].value; turn_on(selected_value, {{ device_number }});">ON</button>
+                <button type="button" class="btn btn-secondary btn-sm v-padded h-padded" onclick="var selector = document.getElementById('current-house'); var selected_value = selector.options[selector.selectedIndex].value; turn_off(selected_value, {{ device_number }});">OFF</button>
+                <br>
+                <button type="button" class="btn btn-info btn-sm bottom-padded h-padded" onclick="var selector = document.getElementById('current-house'); var selected_value = selector.options[selector.selectedIndex].value; dim_up(selected_value, {{ device_number }});">&#9650;</button>
+                <button type="button" class="btn btn-info btn-sm bottom-padded h-padded" onclick="var selector = document.getElementById('current-house'); var selected_value = selector.options[selector.selectedIndex].value; dim_down(selected_value, {{ device_number }});">&#9660;</button>
             </td>
         </tr>
         {% endfor %}

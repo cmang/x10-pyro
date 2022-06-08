@@ -3,10 +3,10 @@
 # x10-pyro - A web (flask) interface to the x10 Firecracker serial module
 # By Sam Foster
 
-# Importing flask module in the project is mandatory
-# An object of Flask class is our WSGI application.
 from flask import Flask
 from flask import render_template
+import argparse
+
 from firecracker import send_command as x10_send
  
 app = Flask(__name__)
@@ -71,9 +71,21 @@ def verify_command(command: str):
         return True
     else:
         return False
+
+def main():
+    # parse arguments
+    arg_parser = argparse.ArgumentParser()
+    arg_parser.add_argument("--host", help="Hostname or IP address to bind to (default: 0.0.0.0 or all)")
+    arg_parser.add_argument("-d", "--debug", help="Enable debugging mode", action="store_true")
+    args = arg_parser.parse_args()
+    debug_mode = args.debug
+    if args.host:
+        bind_ip = args.host
+    else:
+        bind_ip = "0.0.0.0"
+
+    app.run(bind_ip, debug=debug_mode)
   
 if __name__ == '__main__':
-    # run() method of Flask class runs the application 
-    # on the local development server.
-    app.run(host="0.0.0.0", debug = True)
+    main()
 

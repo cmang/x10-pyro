@@ -4,3 +4,16 @@ body {
     background-color: #FFF;
     color: #000;
 }
+
+table {
+    background-color: #FFF;
+}
+
+tr {
+    /* box-shadow: 0px 0px 0px 1px rgb(0, 0, 0); */
+    border: 1px solid;
+    border-left: none;
+    border-right: none;
+    border-color: #000;
+}
+

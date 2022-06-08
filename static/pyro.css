@@ -9,7 +9,7 @@ tr {
     border: 1px solid;
     border-left: none;
     border-right: none;
-    border-color: #666;
+    /* border-color: #000; */
 }
 
 h1 {
@@ -109,6 +109,14 @@ h1 {
 
 .v-padded {
     margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.top-padded {
+    margin-top: 10px;
+}
+
+.bottom-padded {
     margin-bottom: 10px;
 }
 
